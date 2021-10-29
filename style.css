@@ -116,7 +116,7 @@ ol > li:before {
   width:fit-content;
   text-align: center;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
   #tblMembers{
     display: block;
     margin-top: 2rem;
