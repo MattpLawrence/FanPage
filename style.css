@@ -1,0 +1,39 @@
+small{
+  font-size: x-small;
+}
+
+big{
+  font-size: xx-large;
+}
+
+#centered{
+  text-align: center;
+}
+
+#bold{
+  font-weight: bold;
+}
+
+#font{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#multiple{
+  font-size: larger;
+  font-weight: bold;
+  color: orange;
+  transition: 1s;
+}
+#multiple:hover{
+  font-size: xx-large;
+}
+
+.styledFont{
+  text-align: center;
+  color: green;
+}
+
+#styledImage{
+  border: 6px solid orange;
+  border-radius: 5%;
+}

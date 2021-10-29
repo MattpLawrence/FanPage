@@ -1,0 +1,165 @@
+*,
+::after,
+::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ****************Header************************/
+header{
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);   
+}
+
+h1{
+  font-family: Ubuntu, sans-serif;
+}
+
+h2{
+  font-family: Ubuntu, sans-serif;
+  text-align: center;
+}
+
+h3{
+  font-family: Ubuntu, sans-serif;
+}
+
+.hdrTitle{
+  text-align: center;
+  color: rgb(90, 15, 78) ;
+}
+
+/* ****************Body************************/
+body{
+  background-color: rgba(237, 223, 247, 0.3);
+}
+
+#imgMain{
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+ 
+}
+
+@media screen and (max-width: 880px) {
+  #imgMain {
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6%;
+    width: 90%;
+  }
+}
+
+#prgFirst{
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 2rem;
+  background-color: rgba(150, 75, 138, .3);
+  border: 2rem solid rgba(150, 75, 138, .0);
+  font-family: lora , serif;
+}
+/* ****************List ************************/
+.lstIntro{
+  text-align: center;
+  font-family: Ubuntu ,sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#lstBox{
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1rem solid rgba(20, 11, 19, 0.2);
+  border-radius: 1rem;
+}
+
+ol {
+  padding: 2rem;
+  counter-reset: item;
+  text-align: left;
+}
+
+ol > li {
+  margin: 0;
+  padding: 0 0 0 0;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  font-size: 1.25rem;
+  content: counter(item) ".";
+}
+
+/* ****************Chart************************/
+#tblMembers{
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  width:fit-content;
+  text-align: center;
+}
+table{
+  border: 0.2rem solid rgba(90, 15, 78, .2);
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+  padding: 0.2rem;
+  border: 0.2rem solid rgba(237, 223, 247, 0.8);
+}
+caption{
+  margin-bottom: 1rem;
+}
+
+#trFirst{
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  border-bottom: 1rem solid rgba(150, 75, 138, .6);
+}
+
+#prgBottom{
+  text-align: center;
+  font-family: lora , serif;
+  font-size: large;
+  margin-bottom: 2rem;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 880px) {
+  iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 50vw;
+  }
+}
+
+#lnkHallFame:hover{
+  transition: 0.5s;
+  font-size: larger;
+}
